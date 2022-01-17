@@ -6,12 +6,35 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(250, 219, 219);
 }
 /* Start common css class */
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
+    background-color: white;
+}
+.primary-button{
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    background-image: linear-gradient(90deg,#ac3c79 , #FF008E);
+    border-radius: 10px;
+    box-shadow: 0 7px 0 #dd499a;
+    margin-top: 10px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+}
+.primary-button:active{
+    box-shadow: 0 2px 0 #dd499a;
+    top: 5px;
+}
+.primary-button a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 /* End Common Css */
 /* Start Nav section */
@@ -37,3 +60,33 @@ nav{
 }
 
 /* End Nav section */
+/* Start Banner Section */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-left a{
+    text-decoration: none;
+}
+.banner-left h1{
+    font-weight: bolder;
+}
+.banner-left p{
+    line-height: 1.5rem;
+}
+.banner-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.banner-right img{
+    width: 70%;
+}
+/* End Banner Section */
