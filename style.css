@@ -90,3 +90,33 @@ nav{
     width: 70%;
 }
 /* End Banner Section */
+/* Start Company Logos */
+.company-logo{
+    align-items: center;
+    height: 50px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+}
+/* End Company Logos */
+/* Start Product Section */
+/* .product-info img{
+    width: 100%;
+} */
+.product-dittals{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+/* .product-star i{
+    margin-left: 0;
+} */
+.icon{
+    color: gold;
+}
+.ico{
+    color: #aaa;
+}
+/* End Product Section */
